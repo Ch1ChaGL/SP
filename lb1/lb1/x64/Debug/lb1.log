@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\User\Desktop\ТинькоффОсень2023\lb1\lb1\MyTriangle.h(5,49): warning C4091: static : пропускается слева от "MyTriangle::Side", когда ни одна переменная не объявлена
+C:\Users\User\Desktop\ТинькоффОсень2023\lb1\lb1\MyTriangle.h(6,55): warning C4091: static : пропускается слева от "MyTriangle::Angle", когда ни одна переменная не объявлена
+C:\Users\User\Desktop\ТинькоффОсень2023\lb1\lb1\main.cpp(6,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  lb1.vcxproj -> C:\Users\User\Desktop\ТинькоффОсень2023\lb1\x64\Debug\lb1.exe
