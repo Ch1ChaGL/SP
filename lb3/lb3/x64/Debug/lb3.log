@@ -1,0 +1,3 @@
+﻿  MyString.cpp
+C:\Users\User\Desktop\СП\lb3\lb3\MyString.cpp(60,16): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+  lb3.vcxproj -> C:\Users\User\Desktop\СП\lb3\x64\Debug\lb3.exe
