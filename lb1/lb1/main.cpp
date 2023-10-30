@@ -51,7 +51,7 @@ void main() {
 		case '2': {
 			for (size_t i = 0; i < TriangleStore.size(); i++)
 			{
-				cout << i << ". " << TriangleStore[i].getInfo() << endl;
+				cout << i+1 << ". " << TriangleStore[i].getInfo() << endl;
 			}
 			cout << "Выбирите треугольник" << endl;
 			while (!(cin >> triangleNum)) {
@@ -71,7 +71,7 @@ void main() {
 		case '3': {
 			for (size_t i = 0; i < TriangleStore.size(); i++)
 			{
-				cout << i << ". " << TriangleStore[i].getInfo() << endl;
+				cout << i+1 << ". " << TriangleStore[i].getInfo() << endl;
 			}
 			cout << "Выбирите треугольник" << endl;
 			while (!(cin >> triangleNum)) {
@@ -92,7 +92,7 @@ void main() {
 		case '4': {
 			for (size_t i = 0; i < TriangleStore.size(); i++)
 			{
-				cout << i << ". " << TriangleStore[i].getInfo() << endl;
+				cout << i+1 << ". " << TriangleStore[i].getInfo() << endl;
 			}
 			cout << "Выбирите треугольник" << endl;
 			while (!(cin >> triangleNum)) {
@@ -126,7 +126,7 @@ void main() {
 		case '5': {
 			for (size_t i = 0; i < TriangleStore.size(); i++)
 			{
-				cout << i << ". " << TriangleStore[i].getInfo() << endl;
+				cout << i+1 << ". " << TriangleStore[i-1].getInfo() << endl;
 			}
 			cout << "Выбирите треугольник" << endl;
 			while (!(cin >> triangleNum)) {

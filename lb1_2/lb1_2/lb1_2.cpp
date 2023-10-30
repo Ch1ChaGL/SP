@@ -109,6 +109,10 @@ struct Bicycle : Vehicle {
     void changeGear() {
         printf("Смена передачи.\n");
     }
+
+    void printGears() {
+        printf("%i ", gears);
+    }
 };
 
 int main()
@@ -142,7 +146,7 @@ int main()
     bicycle2.startPedaling();
     bicycle2.changeGear();
     bicycle2.stopPedaling();
-
+    bicycle2.printGears();
     return 0;
 }
 

@@ -1,5 +1,13 @@
 ﻿  main.cpp
-C:\Users\User\Desktop\ТинькоффОсень2023\lb1\lb1\MyTriangle.h(5,49): warning C4091: static : пропускается слева от "MyTriangle::Side", когда ни одна переменная не объявлена
-C:\Users\User\Desktop\ТинькоффОсень2023\lb1\lb1\MyTriangle.h(6,55): warning C4091: static : пропускается слева от "MyTriangle::Angle", когда ни одна переменная не объявлена
-C:\Users\User\Desktop\ТинькоффОсень2023\lb1\lb1\main.cpp(6,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-  lb1.vcxproj -> C:\Users\User\Desktop\ТинькоффОсень2023\lb1\x64\Debug\lb1.exe
+C:\Users\User\Desktop\СП\lb1\lb1\MyTriangle.h(5,49): warning C4091: static : пропускается слева от "MyTriangle::Side", когда ни одна переменная не объявлена
+C:\Users\User\Desktop\СП\lb1\lb1\MyTriangle.h(6,55): warning C4091: static : пропускается слева от "MyTriangle::Angle", когда ни одна переменная не объявлена
+C:\Users\User\Desktop\СП\lb1\lb1\main.cpp(6,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  MyTriangle.cpp
+C:\Users\User\Desktop\СП\lb1\lb1\MyTriangle.h(5,49): warning C4091: static : пропускается слева от "MyTriangle::Side", когда ни одна переменная не объявлена
+C:\Users\User\Desktop\СП\lb1\lb1\MyTriangle.h(6,55): warning C4091: static : пропускается слева от "MyTriangle::Angle", когда ни одна переменная не объявлена
+C:\Users\User\Desktop\СП\lb1\lb1\MyTriangle.cpp(66,73): warning C4552: "+": результат выражения не используется
+C:\Users\User\Desktop\СП\lb1\lb1\MyTriangle.cpp(67,62): warning C4552: "+": результат выражения не используется
+C:\Users\User\Desktop\СП\lb1\lb1\MyTriangle.cpp(68,79): warning C4552: "+": результат выражения не используется
+C:\Users\User\Desktop\СП\lb1\lb1\MyTriangle.cpp(69,83): warning C4552: "+": результат выражения не используется
+  Создание кода...
+  lb1.vcxproj -> C:\Users\User\Desktop\СП\lb1\x64\Debug\lb1.exe

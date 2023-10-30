@@ -39,5 +39,12 @@ int main()
 		wrk1->work();
 	}
 	cout << wrk1->getInfo() << endl;
+
+
+	wrk1->eat(25);
+	wrk1->eat(30);
+	wrk1->eat(10);
+	wrk1->eat(100);
+	wrk1->eat(9);
 }
 
