@@ -15,7 +15,24 @@ public:
         this->x2 = x2;
         this->y2 = y2;
     }
+    CircleSector& operator=(const CircleSector& other) {
+        if (this != &other) {
+            // Проверка на самоприсваивание
+            x1 = other.x1;
+            y1 = other.y1;
+            x2 = other.x2;
+            y2 = other.y2;
+        }
+        return *this;
+    }
 
+    CircleSector(const CircleSector& other)
+    {
+        this->x1 = other.x1;
+        this->x2 = other.x2;
+        this->y1 = other.y1;
+        this->y2 = other.y2;
+    }
     // Метод для получения радиуса окружности
     double getRadius() {
         return std::sqrt(x1 * x1 + y1 * y1);
@@ -77,7 +94,9 @@ int main() {
     // Создание двух экземпляров класса CircleSector
     CircleSector sector1(0, 1, 1, 0);
     CircleSector sector2(0.5, 0.5, -0.5, -0.5);
-
+    CircleSector sectorTest = sector1;
+    
+    //ectorTest = sector1;
     // Вывод информации о секторах
     std::cout << "Сектор 1:" << std::endl;
     sector1.printInfo();
